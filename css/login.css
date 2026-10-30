@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #0282cc;
+    margin-top: 20px;
+}
+
+.container {
+    
+    max-width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+
+}
+.container h1 {
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 15px;
+}
+.opcoes {
+    margin-bottom: 10px;
+}
+
+/*campos de texto e-mail , senha e select*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border-radius: 1px solid #dedede;
+}
+
+.opcoes label {
+
+}
+
+button{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    background-color:  #0282cc;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.500s all;
+
+}
+button:hover {
+    background-color: bisque;
+    color: yellow;
+    font-weight: bold;
+}
+input , 
+select,label
+{
+   
+    padding: 10px;
+    
+}
+
+input{
+    border: 2px solid grey;
+}
+.opcoes {
+    display: flex;
+}
+

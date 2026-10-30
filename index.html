@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+
+<body>
+    <div class="container">
+         
+        <form>
+            <h1>Formulario</h1>
+            <div class="form-control">
+                <label for="nome">Nome:</label>
+                <input type="text" id = "nome"/>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id = "email"/>
+            </div>
+            <div class="form-control">
+                <label for="senha">Senha</label>
+                <input type="password" id = "senha">
+            </div>
+            <div class = "form-control">
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="data">
+            </div>
+            <div class ="form-control">
+                <label for="hospital"></label>
+                <select id="hospital" >
+                    <option value="">Tipo de consulta</option>
+                    <option value="medico1">Pediatra</option>
+                    <option value="medico2">Oftalmologista</option>
+                    <option value="medico3">Checkup</option>
+                </select>
+            </div>
+            <div class="form-button">
+
+                <button type="submit" class="btn-cadastro">Cadastrar</button>
+                <button type="reset" class="btn-limpar">Limpar tudo</button>
+                <br>
+                  
+            </div>
+            <a id= "link" href="login.html">Ir para pagina de login</a>
+            <a id= "link" href="recuperacaoSenha.html">Esqueceu a senha?</a>
+        </form>
+        <br>
+
+    </div>
+    
+
+</body>
+
+
+</html>

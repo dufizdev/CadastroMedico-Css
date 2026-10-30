@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#0282cc;
+
+
+    
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FFFF;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+label{
+    display: block;    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input , 
+select
+{
+    width: 100%;
+    padding: 8px;
+}
+.btn-cadastro,.btn-limpar{
+    background-color: #0282cc;
+    color: white;
+    padding: 10px;
+    border:0;
+    margin:10px;
+    cursor: pointer;
+}
+.btn-limpar {
+    background-color: rgb(221, 3, 40);
+}
+.header {
+    margin-bottom: 20px;
+    background-color: #d5d6d6;
+    width: 100%;
+    height: 100px;
+}
+#hospital {
+    width: 100%;
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
